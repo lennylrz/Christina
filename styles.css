@@ -1,0 +1,211 @@
+html {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Jost";
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 30px;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+.header{
+    background-color: rgb(251, 178, 190);
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    margin-bottom: 0;
+}
+.header img {
+    max-width: 100px;
+    display: flex;
+    flex-shrink: 10;
+    flex-grow: 0;
+}
+.header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.header li{
+    font-family: "Jost";
+    font-size: 1.5rem;
+    margin: 0;
+    display: inline-flex;
+    margin-top: 30px;
+    margin-right: 20px;
+    flex-shrink: 1;
+}
+.header a {
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 800px) {
+.header img {
+    display: none;
+}
+.header li {
+    font-size: 0.75rem;
+}
+.header h1 {
+    font-size: 1rem;
+}
+}
+
+#Mission {
+    margin-top: 0px;
+    padding: 0px;
+    font-family: "Exo 2";
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/fuji-and-sakura-royalty-free-image-144483163-1562593125.jpg?crop=0.668xw:1.00xh;0,0&resize=2048:*);
+    background-size:cover;
+    background-position: 200%;
+    height: 600px;
+    font-size: 2rem;
+    margin: 0;
+}
+#M {
+    background-color: rgba(233, 158, 171, 0.8);
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px pink;
+}
+#Portfolio h2 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: rgb(234, 147, 162);
+    font-family: "Jost";
+    margin: 0;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.Images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+}
+figure img {
+    width: 200px;
+    height: 200px;
+    display:  inline-flex;
+    background-color: pink;
+    padding: 10px;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    font-family: "Exo 2";
+    font-size: 1rem;
+    color: rgb(234, 147, 162);
+    margin: 30px;
+    align-items: center;
+}
+figcaption {
+    padding-top: 10px;
+    background-color: pink;
+    width: 200px;
+    color: white;
+    padding: 10px;
+    height: 60px;
+}
+
+#Team {
+    background-color: pink;
+    font-family: "Jost";
+    min-height: 700px;
+    font-size: 1rem;
+}
+#Team h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+#People {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+#People img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+#Christina, #Lenny, #Simon {
+    width: 280px;
+    height: 200px;
+}
+
+.a{
+    border: 4px solid rgb(235, 127, 145);
+    padding: 10px;
+    height: 400px;
+    border-radius: 5%;
+    box-shadow: 0px 3px 3px 2px white;
+}
+@media only screen and (max-width: 889px) {
+    .a h4, p {
+        display: none;
+    }
+    .a {
+        border: 0;
+        box-shadow: 0 0 0 0;
+    }
+  #People img {
+    display: flex;
+    margin-left: 20px;
+  }
+  #Christina {
+    margin-bottom: 20px;
+  }
+  #Lenny {
+    margin-bottom: 20px;
+  }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    font-family: "Exo 2";
+    background-color: rgb(249, 139, 157);
+}
+
+footer h2 {
+    font-size: 2rem;
+    padding-left: 40px;
+}
+footer li {
+    margin: auto;
+    display: flex;
+    padding-bottom: 20px;
+}
